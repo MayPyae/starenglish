@@ -1,0 +1,63 @@
+.footer body {
+    margin: 0px;
+    padding: 0px;
+    background: #dedede;
+}
+#iconfootermps ul {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+#iconfootermps ul li {
+    list-style: none;
+}
+#iconfootermps ul li a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: 0.5s;
+}
+#iconfootermps ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#iconfootermps ul li a .fa {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(50px - 12px);
+    font-size: 24px;
+    color: #229954;
+    transition: 0.5s;
+}
+#iconfootermps ul li:nth-child(1) a:hover .fa {
+    color: #1877f2;
+}
+#iconfootermps ul li:nth-child(2) a:hover .fa {
+    color: #c32aa3;
+}
+#iconfootermps ul li:nth-child(3) a:hover .fa {
+    color: #1da1f2;
+}
+
+#iconfootermps ul li:nth-child(4) a:hover .fa {
+    color: #db4437;
+}
+#iconfootermps ul li:nth-child(5) a:hover .fa {
+    color: #007bb5;
+}
